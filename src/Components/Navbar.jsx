@@ -42,7 +42,7 @@ const Navbar = () => {
       </nav>
 
       {/* mobile menu */}
-        <div className={`md:hidden absolute w-full bg-black -left-[490px] py-14 transition-all duration-300 ${isMenuOpen ? 'left-[0px]' : '-left-[490px]'}`}>
+        <div className={`md:hidden absolute w-full bg-black -left-[500px] py-14 transition-all duration-300 ${isMenuOpen ? 'left-[0px]' : '-left-[-550px]'}`}>
                   <div className='flex flex-col justify-center items-center space-y-8'>
                         <Link to={'/hiw'} className='font-text relative'> <hr/>how it works</Link>
                         <Link to={'/dg'} className='font-text relative'><hr/> design gallery</Link>
