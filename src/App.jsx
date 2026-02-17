@@ -6,9 +6,9 @@ import Home from './Page/Home'
 import Header from './Page/Header'
 import Footer from './Page/Footer'
 import Hiw from './Page/Hiw'
-import Dg from './Page/Dg'
 import Architects from './Page/Architects'
 import Articles from './Page/Articles'
+import Des from './Page/Des'
 const App = () => {
   // AOS
     useEffect (()=>{
@@ -24,7 +24,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hiw" element={<Hiw />} />
-        <Route path="/dg" element={<Dg />} />
+        <Route path="/dg" element={<Des />} />
         <Route path="/architects" element={<Architects/>} />
         <Route path="/articles" element={<Articles />} />
       </Routes>
