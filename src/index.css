@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-title */
+.font-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: oklch(41.4% 0.112 45.904);
+  text-transform: capitalize;
+}
+
+
+/* font */
+.font {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.9rem;
+  font-weight: 500;
+  color: oklch(91.789% 0.00348 38.137);
+  text-transform: capitalize;
+}
+.span {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.9rem;
+  font-weight: 500;
+  color: oklch(41.4% 0.112 45.904);
+  text-transform: capitalize;
+}
+
+/* font-text */
+
+.font-text {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: oklch(98.7% 0.022 95.277);
+  transition: all 0.4s ease;
+  text-transform: capitalize;
+}
+
+.font-text:hover {
+  color: oklch(41.4% 0.112 45.904);
+  transition-duration: 0.4s;
+  transform: scale(1.1);
+}
+
+
+/* font-desc */
+.font-desc {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: oklch(98.7% 0.022 95.277);
+}
+
+/* hr */
+hr {
+  border: none;
+  position: absolute;
+  bottom: 0px;
+  width: 0%;
+  height: 0px;
+  left: 0;
+  transition: all 0.7s ease;
+  background-color: oklch(41.4% 0.112 45.904);
+}
+
+.font-text:hover hr {
+  background-color: oklch(98.7% 0.022 95.277);
+  transition-duration: 0.7s;
+  width: 100%;
+  bottom: -3px;
+  left: 0;
+  height: 4px;
+}
+
+/* btn */
+.btn {
+  background-color: oklch(41.4% 0.112 45.904);
+  color: oklch(98.7% 0.022 95.277);
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+  transition: all 0.4s ease;
+  border: 1px solid oklch(41.4% 0.112 45.904);
+  outline: none;
+}
+
+.btn:hover {
+  background-color: oklch(98.7% 0.022 95.277);
+  color: oklch(41.4% 0.112 45.904);
+  transition-duration: 0.4s;
+  transform: rotate(5deg) scale(1.1);
+}
